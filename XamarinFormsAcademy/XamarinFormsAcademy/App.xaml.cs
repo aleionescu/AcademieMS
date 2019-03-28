@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsAcademy.Lab1;
 using XamarinFormsAcademy.Laboratorul_1;
 using XamarinFormsAcademy.Laboratorul_2;
 using XamarinFormsAcademy.Laboratorul_3;
@@ -27,7 +28,7 @@ namespace XamarinFormsAcademy
 
             // Ii spunem paginii de navigare ca prima pagina cu care ne vom intalni
             // este StartPageLab1, aceasta o puteti modifica voi oricand
-            NavigationMethod.PushAsync(new ContentPage());
+            NavigationMethod.PushAsync(new StartPageLab1());
 
             // Aici vom seta pagina care va fi afisata prima si care
             // va fi radacina vizuala a aplicatiei noastre

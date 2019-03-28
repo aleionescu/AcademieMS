@@ -11,5 +11,9 @@ namespace XamarinFormsAcademy.Laboratorul_1
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, System.EventArgs e) {
+
+        }
     }
 }
